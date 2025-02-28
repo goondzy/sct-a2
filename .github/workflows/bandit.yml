@@ -20,6 +20,10 @@ on:
   schedule:
     - cron: 0 2 * * 0 # run task every Sunday @ 2:00am (UTC)
 
+# Set permissions explicitly to pass security checks
+permissions:
+  contents: read
+
 jobs:
   bandit:
     permissions:
