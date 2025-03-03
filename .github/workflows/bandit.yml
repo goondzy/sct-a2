@@ -53,3 +53,5 @@ jobs:
           # skips: # optional, default is DEFAULT
           # path to a .bandit file that supplies command line arguments
           # ini_path: # optional, default is DEFAULT
+# References
+# https://github.com/bridgecrewio/checkov/issues/4127
