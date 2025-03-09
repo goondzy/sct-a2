@@ -13,10 +13,10 @@
 name: Bandit
 on:
   push:
-    branches: [assignment1_code_sample.py]
+    branches: [dev]
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [assignment1_code_sample.py]
+    branches: [dev]
   schedule:
     - cron: 0 2 * * 0 # run task every Sunday @ 2:00am (UTC)
 
